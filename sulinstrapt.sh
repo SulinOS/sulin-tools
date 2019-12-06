@@ -1,6 +1,7 @@
 #!/bin/sh
+#sulinstrapt betiği ile sulinos chroot oluşturabilirsiniz veya diskinize kurulum yapabilirsiniz
 sulin="$1"
-if [ ! -f "/usr/bin/inary" ]
+if which inary
 then
   echo "inary not found"
   exit 1
